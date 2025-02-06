@@ -1,0 +1,9 @@
+<div class="player-list">
+    <h3>Connected Players</h3>
+    <ul>
+      <!-- <li *ngFor="let player of players">{{ player }}</li> -->
+       @for (player of players; track $index) {
+         <li>{{ player }}</li>
+       }
+    </ul>
+  </div>

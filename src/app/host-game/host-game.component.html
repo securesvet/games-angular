@@ -1,0 +1,11 @@
+<div class="host-container">
+    <h2>Host a Game</h2>
+    <div class="game-code">
+      <p>Game Code: <span class="code">{{ gameCode }}</span></p>
+    </div>
+    <button (click)="startGame()" class="btn btn-success">Start Game</button>
+    <button (click)="endGame()" class="btn btn-danger">End Game</button>
+  
+    <app-player-list [players]="players"></app-player-list>
+  </div>
+  
