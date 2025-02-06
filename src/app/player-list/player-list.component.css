@@ -1,0 +1,11 @@
+.player-list {
+    margin-top: 20px;
+}
+.player-list ul {
+    list-style: none;
+    padding: 0;
+}
+.player-list ul li {
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
